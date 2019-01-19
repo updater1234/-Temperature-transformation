@@ -5,12 +5,12 @@ if choose == 1 :
   C = float(input("please enter F temperature:"))
   a = C * 1.8
   FFINAL = a + 32
-  print("The C temperature is:")
+  print("The F temperature is:")
   print (FFINAL)
 
 if choose == 2 :
     F = float(input("please enter F temperature:"))
     a = F - 32
     CFINAL = a / 1.8
-    print ("The F temperature is:")
+    print ("The C temperature is:")
     print (CFINAL)
